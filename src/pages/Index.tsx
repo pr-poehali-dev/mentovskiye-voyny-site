@@ -62,7 +62,7 @@ const Index = () => {
             <div className="flex flex-col md:flex-row gap-6">
               <div className="md:w-1/3">
                 <img 
-                  src="/img/7ab5f4c7-d218-4968-8fe2-ffbf3b8d2421.jpg" 
+                  src="https://cdn.poehali.dev/files/83ab586c-72fd-4183-b1ce-1585d8aed5c1.jpg" 
                   alt="Ментовские войны постер"
                   className="w-full rounded border border-gray-300"
                 />
