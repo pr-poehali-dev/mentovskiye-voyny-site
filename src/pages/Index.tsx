@@ -7,17 +7,17 @@ import Icon from '@/components/ui/icon';
 
 const Index = () => {
   const seasons = [
-    { number: 1, episodes: 16, year: '2005-2006', status: 'Завершен' },
-    { number: 2, episodes: 16, year: '2006', status: 'Завершен' },
-    { number: 3, episodes: 16, year: '2007', status: 'Завершен' },
-    { number: 4, episodes: 16, year: '2008', status: 'Завершен' },
-    { number: 5, episodes: 32, year: '2009-2010', status: 'Завершен' },
-    { number: 6, episodes: 32, year: '2011', status: 'Завершен' },
-    { number: 7, episodes: 32, year: '2012', status: 'Завершен' },
-    { number: 8, episodes: 32, year: '2013', status: 'Завершен' },
-    { number: 9, episodes: 32, year: '2014', status: 'Завершен' },
-    { number: 10, episodes: 32, year: '2015', status: 'Завершен' },
-    { number: 11, episodes: 32, year: '2016', status: 'Завершен' },
+    { number: 1, episodes: 12, year: '2005', status: 'Завершен' },
+    { number: 2, episodes: 12, year: '2006', status: 'Завершен' },
+    { number: 3, episodes: 12, year: '2007', status: 'Завершен' },
+    { number: 4, episodes: 8, year: '2008', status: 'Завершен' },
+    { number: 5, episodes: 16, year: '2009', status: 'Завершен' },
+    { number: 6, episodes: 16, year: '2010', status: 'Завершен' },
+    { number: 7, episodes: 24, year: '2011', status: 'Завершен' },
+    { number: 8, episodes: 16, year: '2012', status: 'Завершен' },
+    { number: 9, episodes: 16, year: '2013', status: 'Завершен' },
+    { number: 10, episodes: 16, year: '2014', status: 'Завершен' },
+    { number: 11, episodes: 16, year: '2015-2016', status: 'Завершен' },
   ];
 
   const mainCharacters = [
@@ -237,7 +237,7 @@ const Index = () => {
                 <Separator />
                 <div>
                   <h4 className="font-medium text-gray-900 mb-1">Количество серий</h4>
-                  <p className="text-gray-600 text-sm">288</p>
+                  <p className="text-gray-600 text-sm">164</p>
                 </div>
               </CardContent>
             </Card>
