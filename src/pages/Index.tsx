@@ -18,11 +18,6 @@ const Index = () => {
     { number: 9, episodes: 32, year: '2014', status: 'Завершен' },
     { number: 10, episodes: 32, year: '2015', status: 'Завершен' },
     { number: 11, episodes: 32, year: '2016', status: 'Завершен' },
-    { number: 12, episodes: 40, year: '2017', status: 'Завершен' },
-    { number: 13, episodes: 40, year: '2018', status: 'Завершен' },
-    { number: 14, episodes: 40, year: '2019', status: 'Завершен' },
-    { number: 15, episodes: 40, year: '2020', status: 'Завершен' },
-    { number: 16, episodes: 40, year: '2021', status: 'Завершен' },
   ];
 
   const mainCharacters = [
@@ -76,7 +71,7 @@ const Index = () => {
                 <p className="text-base text-gray-700 leading-relaxed mb-4">
                   <strong>«Ментовские войны»</strong> — российский телевизионный художественный сериал, 
                   криминальная драма. Один из самых популярных и длительных проектов российского телевидения, 
-                  выходивший с 2005 по 2021 год.
+                  выходивший с 2005 по 2016 год.
                 </p>
                 <p className="text-base text-gray-700 leading-relaxed mb-4">
                   Сериал рассказывает о работе оперативников петербургской милиции (позднее полиции), 
@@ -84,10 +79,10 @@ const Index = () => {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">
-                    16 сезонов
+                    11 сезонов
                   </Badge>
                   <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200">
-                    2005-2021
+                    2005-2016
                   </Badge>
                   <Badge variant="outline" className="bg-purple-50 text-purple-700 border-purple-200">
                     Криминальная драма
@@ -222,7 +217,7 @@ const Index = () => {
                 <Separator />
                 <div>
                   <h4 className="font-medium text-gray-900 mb-1">Годы выхода</h4>
-                  <p className="text-gray-600 text-sm">2005 — 2021</p>
+                  <p className="text-gray-600 text-sm">2005 — 2016</p>
                 </div>
                 <Separator />
                 <div>
@@ -237,12 +232,12 @@ const Index = () => {
                 <Separator />
                 <div>
                   <h4 className="font-medium text-gray-900 mb-1">Количество сезонов</h4>
-                  <p className="text-gray-600 text-sm">16</p>
+                  <p className="text-gray-600 text-sm">11</p>
                 </div>
                 <Separator />
                 <div>
                   <h4 className="font-medium text-gray-900 mb-1">Количество серий</h4>
-                  <p className="text-gray-600 text-sm">496</p>
+                  <p className="text-gray-600 text-sm">288</p>
                 </div>
               </CardContent>
             </Card>
